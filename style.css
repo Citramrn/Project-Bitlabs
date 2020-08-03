@@ -1,0 +1,193 @@
+body {
+  font-family: Montserrat;
+
+}
+
+body, html, #home, #about, #education, #certificate, #skill, #contact {
+  position: relative;
+  scroll-behavior: smooth;
+}
+
+p {
+  line-height: 1.75;
+}
+
+body {
+  font-family: Montserrat;
+}
+
+header.masthead {
+  text-align: center;
+  color: white;
+  background-image: url("mycodee.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+header.masthead .intro-text {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+header.masthead h1.display-4 {
+  margin-bottom: 25px;
+}
+
+header.masthead p.lead {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+@media (min-width: 768px) {
+  header.masthead .intro-text {
+      padding-top: 300px;
+      padding-bottom: 200px;
+  }
+
+  header.masthead p.lead {
+      font-size: 20px;
+      margin-bottom: 25px;
+  }
+
+  header.masthead h1.display-4 {
+      line-height: 20px;
+      font-weight: bold;
+      margin-bottom: 50px;
+  }
+}
+
+.page-section {
+  padding-top: 170px;
+  padding-bottom: 170px;
+ 
+}
+
+.progress {
+    margin-top: 70px;
+   
+}
+.navbar {
+    background-color: #4c3bc5;
+
+}
+
+.page {
+  background-image: url(portfolio-page.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.the-page {
+  background-image: url(image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer {
+  text-align: center;
+  padding: 25px 0;
+}
+
+.copyright {
+  color: white;
+  text-align: center;
+}
+
+
+#contactForm {
+  margin-top: 60px;
+}
+
+section#contact .form-group textarea.form-control {
+  height: 136px;
+}
+
+section#contact .form-group textarea {
+    padding: 20px;
+}
+
+section#contact .form-group .form-control {
+  height: 60px;
+  
+}
+
+#sendMessageButton {
+  background-color: #2e3192 ;
+  border: none;
+  height: 60px;
+  width: 200px;
+  margin-top: 30px;
+}
+
+.form-control {
+  border: 3px solid white;
+  
+}
+
+.form-control::-webkit-input-placeholder {
+  color: white;
+  
+}
+
+.portfolio-caption {
+  text-align: center;
+  margin-top: 25px;
+  
+}
+
+.icon-page {
+  margin-top: 10px;
+}
+
+.portfolio-modal .modal-content {
+  padding: 100px 0;
+  text-align: center;
+  color: #292c7a;
+ 
+}
+
+.modal-dialog {
+  background-color: #7b7eca;
+}
+
+@media (max-width: 576px) { 
+.btn-primary {
+    margin-bottom: -230px;
+}
+
+body, html, #home, #about, #education, #certificate, #skill, #contact {
+  scroll-behavior: smooth;
+}
+
+ }
+
+@media (min-width: 767px) { 
+   
+header.masthead h1.display-4 {
+    line-height: 70px;
+    font-weight: bold;
+    margin-bottom: 50px;
+
+}
+
+.btn-primary {
+  margin-top: -100px;
+}
+
+body, html, #home, #about, #education, #certificate, #skill, #contact {
+  scroll-behavior: smooth;
+}
+
+}
+
+@media (max-width: 991px) { 
+  .btn-primary {
+    margin-bottom: -230px;
+}
+body, html, #home, #about, #education, #certificate, #skill, #contact {
+  scroll-behavior: smooth;
+}
+
+}
